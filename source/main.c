@@ -91,7 +91,7 @@ int _main(void) {
 	int sysUtil = sceKernelLoadStartModule("/system/common/lib/libSceSysUtil.sprx", 0, NULL, 0, 0, 0);
 	RESOLVE(sysUtil, sceSysUtilSendSystemNotificationWithText);
 
-	sysNotify("ArabicGuy Menu 1.0 loaded.\nPlease launch GTA V.");
+	sysNotify("ArabicGuy Menu 1.0 loaded For 5.05FW.\nPlease launch GTA V Update v1.32");
 	gamePID = findProcess("eboot.bin");
 
 	sceKernelSleep(3);
